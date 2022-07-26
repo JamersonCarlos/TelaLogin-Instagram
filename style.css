@@ -111,7 +111,7 @@ body {
 
 .app-download { 
     height: 3rem;
-    width: 10rem;
+    width: 12rem;
     background-size: cover;
 }
 
@@ -121,4 +121,32 @@ body {
 
 .app-download:nth-child(2) {
     background-image: url('./img/googleplay-button.png');
+}
+
+@media (max-width: 1024px) {
+    .flex-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .flex-container {
+        width: 90%;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 100%;
+    }
+    
+    .group {
+        border: 1px solid transparent;
+    }
 }
